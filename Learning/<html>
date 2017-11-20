@@ -1,0 +1,97 @@
+<!DOCtype html>
+
+<html>
+
+<head>
+	<title>
+		Daniel Talavera UiUx Design
+	</title>
+</head>
+
+<style type="text/css">
+	
+
+	h1 {
+		font-size: 160
+		color:(36,36,36);
+	}
+
+</style>
+
+<body>
+
+	<figure>
+		<img src="http://static1.squarespace.com/static/56fd5ea54d088e2867a05d66/t/58bcdaee9f7456dff8125227/1504116064708/">
+ 		<figcaption> Bussiness growth through strategic creative direction
+ 		</figcaption>
+	</figure>
+
+	<h1>
+		<p>
+			Illustration, Design, and UiUx
+		</p>
+	</h1>
+
+	<table>
+		
+		<thead>
+			<tr>Payment Plans</tr>
+			<tr>Lorem</tr>
+			<tr>Gamma Gamma</tr>
+		</thead>	
+			<tr>
+				<th></th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+			</tr>
+			<tr>
+				<th scope="col">Price:</th>
+				<td colspan="2">$50</td>
+				<td>$75</td>
+				<td>$125</td>
+			</tr>
+			<tr>
+				<th scope="row">Plan:</th>
+				<td>Basic</td>
+				<td rowspan="2">Gold</td>
+				<td>Diamond</td>
+				<td>Diamond Plus</td>
+			</tr>
+			<tr>
+				<td>Blah</td>
+			</tr>
+
+	</table>
+
+	<form action="https://www.example.com/login.php">
+		
+		<p>Username:
+			<input type="text" name="username" size="15" maxlength="30"/>
+		</p>
+		
+		<p>Password:
+			<input type="password" name="password" size="15" maxlength="30"/>
+		</p>
+		
+		<p>What do you think about this code?</p>
+		<textarea name="comments"> Enter your comment...
+		</textarea>
+
+		<p>On a scale of 1 to 5 how cool is Daniel</p>
+		<input type="radio" name="rating" value="1" checked="checked"/> 1
+		<input type="radio" name="rating" value="2" checked="checked"/> 2
+		<input type="radio" name="rating" value="3" checked="checked"/> 3
+		<input type="radio" name="rating" value="4" checked="checked"/> 4
+		<input type="radio" name="rating" value="5" checked="checked"/> 5
+
+		<p>Did you just finish reading this sentence?</p>
+			<input type="checkbox" name="choice" value="Yes" checked="checked"/> Yes
+			<input type="checkbox" name="choice" value="No" checked="checked"/> No
+
+
+	</form>
+
+</body>
+
+</html>
